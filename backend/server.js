@@ -4,8 +4,6 @@ const cors = require("cors");
 
 
 const authRoutes = require("./routes/authRoutes");
-
-
 const adventureRoutes = require("./routes/adventureRoutes");
 const discoverRoutes = require("./routes/discoverRoutes");
 const ecoRoutes = require("./routes/ecoRoutes");
