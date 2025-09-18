@@ -1,0 +1,33 @@
+.about-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.about-container h1 {
+  text-align: center;
+  color: #333;
+}
+
+.about-container h2 {
+  color: #555;
+  margin-top: 20px;
+}
+
+.about-container p {
+  line-height: 1.6;
+  color: #666;
+}
+
+.about-container ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.about-container ul li {
+  margin-bottom: 8px;
+}

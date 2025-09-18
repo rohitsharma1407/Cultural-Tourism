@@ -1,0 +1,42 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns */
+  grid-template-rows: repeat(2, auto); /* 2 rows */
+  gap: 10px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.place-card {
+  position: relative;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.place-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 15px;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  opacity: 0.7;
+}
+
+.know-more-btn {
+  background-color: #7f7f7f;
+  border: none;
+  padding: 8px 12px;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.know-more-btn:hover {
+  background-color: #e65c00;
+}
